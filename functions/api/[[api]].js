@@ -11,4 +11,4 @@ export async function onRequest(context) {
     // proxy the request to the API backend.
     const request = new Request(apiUrl, context.request);
     return fetch(request);
-};
+}; 
