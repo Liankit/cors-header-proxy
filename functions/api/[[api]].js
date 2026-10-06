@@ -1,7 +1,7 @@
 export async function onRequest(context) {
     // rewrite the reuqest's URL to a fixed value.
     // you could also use an environment variable.
-    const apiUrl = new URL("https://api.myapp.com");
+    const apiUrl = new URL("https://letterboxd.com/anbimichi/rss/");
 
     const requestUrl = new URL(context.request.url);
     // remove the /api prefix
